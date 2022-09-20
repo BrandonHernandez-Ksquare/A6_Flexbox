@@ -1,0 +1,94 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50vw;
+    background-color: white;
+}
+form{
+    display: flex;
+    width: 55%;
+    flex-direction: column;
+}
+.form h1,h4{
+    color: #10083f;
+    text-align: left;
+}
+h1{
+    align-self: left;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+h4{
+    margin-top: 5px;
+    color: #C5C5C5;
+}
+a{
+    color: #10083f;
+    text-decoration: none;
+    font-weight: bold;
+}
+.testimonial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: blueviolet;
+    height: 100vh;
+    width: 50vw;
+}
+label{
+    font-weight: 600;
+}
+label:not(.rememberme){
+    text-align: left;
+}
+button{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #10083f;
+    width: 100%;
+    height: 25px;
+}
+input:not(#check){
+    width: 100%;
+    height: 25px;
+}
+.checkb{
+    
+}
+.img{
+    position: relative;
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+article{
+    color: white;
+    padding: 15px;
+    margin: 20px;
+    position: absolute;
+    bottom: 0;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 9px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+article p{
+    font-size: 18px;
+}
+input, button{
+    border-radius: 5px;
+}
