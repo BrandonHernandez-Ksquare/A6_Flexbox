@@ -22,10 +22,8 @@ form{
 }
 .form h1,h4{
     color: #10083f;
-    text-align: left;
 }
 h1{
-    align-self: left;
     margin-bottom: 0;
     font-size: 25px;
 }
@@ -52,8 +50,11 @@ a{
     justify-content: space-between;
 }
 .sign{
-    display: inline-flex;
-    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.sign a{
+    padding-left: 10px;
 }
 label{
     font-weight: 600;
